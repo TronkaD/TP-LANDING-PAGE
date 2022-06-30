@@ -1,0 +1,816 @@
+@font-face {
+    font-family: 'GrandHotel';
+    src: url(fonts/Grand_Hotel/GrandHotel-Regular.ttf);
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url(fonts/montserrat_2/Montserrat-Regular.ttf);
+}
+.isBlack{
+    background-color: #232323;
+}
+.isGray{
+    /*background-color: #2e2e2e;*/
+    background-color: #2f2f2f;
+}
+.isWhite{
+    background-color: #ffffff;
+}
+.isFontYellow{
+    color: #fdbf00;
+}
+.isYellow{
+    background-color: #fdbf00;
+}
+.isfontWhite{
+    color: #ffffff;
+}
+.isfontblack{
+    color:#282828;
+}
+.isfont-GrandHotel{
+    font-family: 'GrandHotel';
+}
+.isfont-Montserrat{
+    font-family: 'montserrat';
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+    
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    box-shadow: 2px 2px 5px black;
+}
+.wrap-img img{
+    position: relative;
+    display: flex;
+    
+}
+.header-firstRow{
+    position:absolute;
+    top:20px;
+    left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+
+}
+.logo-container img{
+    width: 30%;
+    height: 60px;
+    margin-left: 220px;
+}
+.logo-container{
+    width: 40%;
+    height: 60px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+.nav-bar li{
+    padding: 10px 65px 10px 0px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 24px;
+    font-family: 'montserrat';
+}
+.nav-bar ul li a:hover{
+    color:#fdbf00;
+    transform: scale(0.7);
+}
+.lorem-block{
+    position:absolute;
+    bottom: 40%;
+    right: 25%;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: left;
+    align-items: left;
+}
+.title-here{
+        font-size: 45px;      
+}
+.lorem{
+    display: inline-block;
+    padding: 25px;
+    padding-left: 0px;
+    font-size: 20px;
+    text-align: justify;
+    color:white;
+
+}
+.btn{
+    border-style: none;
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.main-container{
+    width: 88%;
+    margin:auto;
+    box-shadow: 2px 2px 5px black;
+}
+.first-container-of-main{
+    margin: auto;
+    padding-bottom: 80px;
+}
+.best-seller-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-best-seller{
+    padding: 30px;
+    font-size: 40px;
+}
+.lorem-statistics,
+.lorem-best-seller{
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    width: 60%;
+    padding-bottom: 2%;
+    color:black;
+}
+.lorem-statistics{
+    color:whitesmoke;
+}
+.menu-food{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-img-food-seller{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.food-wrap img{
+    border-radius: 50%;
+}
+.names-of-foods-seller,
+.lorem-of-foods{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.names-of-foods-seller{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 250px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.food-name{
+     display: inline-block;
+     font-size: 30px;
+     padding-top: 15%;   
+}
+.lorem-food{
+    display:inline-flex;
+    text-align: center; 
+    padding: 10px 20px 10px 0px;
+}
+.lorem-of-foods{
+    width: 70%;
+    margin-left: 20px;
+} 
+.brush-wrapper{
+    padding-top: 50px;
+    height: 400px;
+    background: url(images/background_noir2.png)no-repeat;
+    background-position: 50% 0%;
+    background-size:120%;
+}
+.brush-wrapper-reverse{
+    padding-top: 50px;
+    height: 400px;
+    background: url(images/brush-reverse.png)no-repeat;
+    background-position: 20% 70%;
+    background-size:120%;
+    
+}
+
+.oriental-taste{
+    display:flex;
+    width:80%;
+    margin:auto; 
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;  
+    padding: 10px;
+    margin-top: 60px;
+}
+.oriental-taste-reverse{
+    display:flex;
+    width:80%;
+    margin:auto; 
+    justify-content: space-between;
+    text-align: center;  
+    padding: 10px;
+    margin-bottom: 150px;
+}
+.oriental-taste-wrap img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.lorem-oriental{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+.lorem-oriental-reverse{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+
+.title-oriental{
+    font-size: 50px;
+}
+.oriental-taste{
+    width:80%; 
+    padding: 10px;
+    margin-top: 30px;
+}
+.oriental-taste-wrap img{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px
+}
+.title-oriental{
+    font-size: 30px;
+}
+.lorem-oriental-taste-reverse{
+    padding: 25px 25px 25px 0px;
+    color: white;
+}
+.oriental-taste-wrap-reverse img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.Row3-of-main-container{
+    background-color: #303030;
+}
+.statistics-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    background-color: #313131;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:#ffffff;
+    font-size: 20px;
+    font-family: "montserrat";
+    border: 3px solid white;
+    box-shadow: 2px 2px 5px gray;
+    
+}
+.square-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    justify-items: auto;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 80px;
+}
+.number{
+    color:#fdbf00;
+    font-size: 24px;
+}
+.number-illustration{
+    color: white;
+}
+.statistic{
+    font-size: 70px;
+    color: #fdbf00;
+}
+.lorem-statistics{
+    font-size: 20px;
+}
+.Row5-of-main-container{
+    margin-top: 10%;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 600px;
+
+}
+.wrap-bg{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+}
+.wrap-bg img{
+    width: 100%;
+    height: 600px;
+}
+.bg-opacity{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    z-index: 1;
+    background: #fdbf00;
+    opacity: 0.80;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lorem-opacity,
+.lenora{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(29, 28, 28);
+}
+.lenora{
+    font-size: 60px;
+    padding-top: 25px;
+}
+.Row6-of-main-container{
+    position: relative;
+    background: url(images/legume.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe{
+    display:  inline-block;
+    font-size: 70px;
+    padding: 30px;
+}
+.lorem-subscribe{
+    display: inline-block;
+    width: 60%;
+    font-size: 24px;
+    padding: 30px;
+    text-align: center;
+}
+.form-email{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+input{
+    width:50%;
+    height: 40px;
+    border-style: none;
+    box-shadow: 2px 2px 5px black;
+    padding-left: 5px;
+    font-family: "montserrat";
+}
+.btn{
+    border-style: none;
+    display: inline-block;
+    height: 40px;
+    box-shadow: 2px 2px 5px black;
+    background-color: #fdbf00;
+    font-size: 16px;
+}
+.footer-container{
+    position: relative;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 2% 3% 2%  3%;
+    gap:50px;
+    width: 75.5%;
+    margin: auto;
+    box-shadow: 2px 2px 5px black;
+    color: white;
+}
+.title{
+    padding-bottom: 10px;
+    word-spacing: 2px;
+}
+.first-column{
+    margin-left: 30px;
+}
+.four-column,
+.three-column,
+.second-column{
+    margin-left: 100px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    margin-top: 5px;
+}
+.lorem-footer{
+    width: 100%;
+}
+.social-network-icon{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-around;
+    padding: 10px 10px 10px 0px;
+}
+.social-network-icon img{
+    width: 100%;
+    height: 20px;
+}
+@media screen and (min-width: 470px) and (max-width:600px){
+    header{
+        width: 600px;
+    }
+    .main-container{
+        width: 600px;
+        margin: auto;
+    }
+    .footer-container{
+        width: 600px;
+        margin: auto;
+    }
+    .wrap-img img{
+        width:100%
+    }
+    .header-firstRow{
+        width: 50%
+    }
+    .nav-bar{
+        width: 0%;
+        margin-top:-15px
+    }
+    .nav-bar li{
+        padding: 10px 0px 10px 30px;
+    }
+    .nav-bar ul li a{
+        font-size: 12px;
+    }
+    .logo-container{
+        width: 30%;
+        height: 30px; 
+        margin-top:-10px;
+    }
+    .logo-container img{
+        width: 80%;
+        height: 40px;
+        margin-left: -10px;
+    }
+    .title-here{
+        font-size: 20px;      
+    }
+    .lorem{
+        font-size: 10px;
+        padding-bottom: 8px;
+        padding-top: 5px;
+        width: 200px;
+    }
+    .lorem-block{
+        bottom: 1650px;
+        width: 30%;
+    }
+    .btn{
+        width: 70px;
+        height: 20px;
+        font-size: 8px;
+    }
+    .title-best-seller{
+        padding: 15px;
+        font-size: 30px;
+    }
+    .lorem-statistics,
+    .lorem-best-seller{
+        font-size: 12px;
+        width: 60%;
+        padding-bottom: 5%;
+    }
+    .wrap-img-food-seller{
+        justify-content: space-around;
+        align-items: center;
+       
+    }
+    .food-wrap img{
+        border-radius: 50%;
+        width: 100px;
+        
+    }
+    .names-of-foods-seller{
+        gap: 110px;
+        justify-content: space-around;
+    
+    }
+    .food-name{
+        font-size: 20px;
+        padding-top: 15%; 
+        width: 80px
+    }
+    .lorem-food{
+        display:inline-flex;
+        text-align: center; 
+        padding: 10px 30px 10px 0px;
+        font-size:10px;
+    }
+    .lorem-of-foods{
+        width: 100%;
+    } 
+    .oriental-taste{
+        width:80%; 
+        padding: 10px;
+        margin-top: 30px;
+    }
+    .oriental-taste-wrap img{
+        width: 150px;
+        height: 150px;
+        margin-top: 30px
+    }
+    .title-oriental{
+        font-size: 30px;
+    }
+    .square{
+        width: 90px;
+        height: 90px;
+        font-size: 12px;
+    }
+    .square-container{
+        width: 80%;
+    }
+    .number{
+        font-size: 12px;
+    }
+    .oriental-taste-reverse{
+        width:100%;
+        justify-content: space-between;
+    }
+    .oriental-taste-wrap-reverse img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .lorem-oriental-taste{
+        padding: 25px 25px 25px 0px;
+        color: white;
+    }
+    .lorem-oriental-taste-reverse{
+        font-size: 16px;
+    }
+    .wrap-bg img{
+        height: 400px;
+    }
+    .bg-opacity{
+        height: 400px;
+    }
+    .lorem-opacity,
+    .lenora{
+        width: 50%;
+        font-size: 20px;
+        color: rgb(29, 28, 28);
+    }
+    .lenora{
+        font-size: 30px;
+        padding-top: 25px;
+    }  
+    .subscribe{
+        font-size: 50px;
+        padding: 20px;
+    }
+    .lorem-subscribe{
+        width: 80%;
+        font-size: 12px;
+        padding: 20px;
+    } 
+    .form-email{
+        width: 50%;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    input{
+        width:50%;
+        height: 25px;
+        box-shadow: 2px 2px 5px black;
+        padding-left: 5px;
+    }
+    .form-email .btn{
+        height: 25px;
+        box-shadow: 2px 2px 5px black;
+        background-color: #fdbf00;
+        font-size: 10px;
+    }
+    .Row6-of-main-container{
+        margin-top: -160px;
+    }
+    .footer-container{
+        grid-template-columns: 1fr 1fr;
+        padding: 2% 3% 2%  3%;
+        gap:50px;
+        width: 100%;
+        margin: auto;
+    }
+    .title{
+        font-size:12px
+    }
+    .first-column{
+        margin-left: 30px;
+    }
+    .four-column,
+    .second-column{
+        margin-left: 60px;
+    }
+    .three-column{
+        margin-left: 40px;
+    }
+    ul li{
+        font-size:10px;
+    }
+    .lorem-footer{
+        width: 80%;
+        font-size:10px; 
+    }
+    .social-network-icon{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        gap:5px;
+        justify-content: space-around;
+        padding: 10px 10px 10px 0px;
+    }
+    .social-network-icon img{
+        width: 100%;
+        height: 20px;
+    
+    }
+}
+@media screen and (max-width:466px){
+    header{
+        width: 466px;
+    }
+    .main-container{
+        width: 466px;
+        margin: auto;
+    }
+    .footer-container{
+        width: 466px;
+        margin: auto;
+    }
+    .wrap-img img{
+        width:100%
+    }
+    .header-firstRow{
+        width: 50%
+    }
+    .nav-bar{
+        margin-top:-15px
+    }
+    .nav-bar li{
+        padding: 10px 0px 10px 8px;
+    }
+    .nav-bar ul li a{
+        font-size: 9px;
+        margin-left: 5px;
+    }
+    .logo-container{
+        width: 40%;
+        height: 20px; 
+        margin-top:-10px;
+    }
+    .logo-container img{
+        width: 80%;
+        height: 40px;
+        margin-left: -40px;
+    }
+    .lorem-block{
+        bottom: 1710px;
+        right: 35%;
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+    }
+    .title-here{
+            font-size: 20px;      
+    }
+    .lorem{
+        padding: 8px;
+        font-size: 8px;
+    }
+    .btn{
+        width: 60px;
+        height: 20px;
+        font-size: 7px;
+        margin-left: 10px;
+    }
+    .wrap-img-food-seller{
+        gap: 50px;
+    }
+    /**/
+    .names-of-foods-seller{
+        width: 70%;   
+    }
+    .names-of-foods-seller{
+        gap: 80px;  
+    }
+    .oriental-taste{
+        width:80%; 
+        padding: 10px;
+        margin-top: 30px;
+    }
+    .oriental-taste-wrap img{
+        width: 150px;
+        height: 150px;
+    }
+    .title-oriental{
+        font-size: 25px;
+    }
+    .lorem-oriental{
+        width: 50%;
+        font-size: 10px;
+        padding: 5px;
+    }
+    .Row3-of-main-container{
+        background-color: #303030;
+        margin-top: -100px;
+    }
+    .statistics-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -20px;
+    }
+    .statistic {
+        font-size: 30px;
+    }
+    .square{
+        width: 80px;
+        height: 80px;
+        font-size: 10px;
+    }
+    .brush-wrapper-reverse{
+        margin-top: -50px;
+        padding-top: 30px;  
+    }
+    .lorem-oriental-taste{
+        padding: 25px 25px 25px 0px;
+        color: white;
+    }
+    .lorem-oriental-taste-reverse{
+        font-size: 12px;
+    }
+    input{
+        width:60%;
+        height: 25px;
+        box-shadow: 2px 2px 5px black;
+        padding-left: 5px;
+    }
+    .form-email .btn{
+        height: 25px;
+        box-shadow: 2px 2px 5px black;
+        background-color: #fdbf00;
+        font-size: 8px;
+        margin-left: -5px;
+    }
+    
+    
+}

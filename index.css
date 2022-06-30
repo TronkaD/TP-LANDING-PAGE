@@ -1,0 +1,831 @@
+@font-face {
+    font-family: 'GrandHotel';
+    src: url(fonts/Grand_Hotel/GrandHotel-Regular.ttf);
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url(fonts/montserrat_2/Montserrat-Regular.ttf);
+}
+.isBlack{
+    background-color: #232323;
+}
+.isGray{
+    /*background-color: #2e2e2e;*/
+    background-color: #2f2f2f;
+}
+.isWhite{
+    background-color: #ffffff;
+}
+.isFontYellow{
+    color: #fdbf00;
+}
+.isYellow{
+    background-color: #fdbf00;
+}
+.isfontWhite{
+    color: #ffffff;
+}
+.isfontblack{
+    color:#282828;
+}
+.isfont-GrandHotel{
+    font-family: 'GrandHotel';
+}
+.isfont-Montserrat{
+    font-family: 'montserrat';
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   /*border: 2px solid red;*/
+    
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    box-shadow: 2px 2px 5px black;
+}
+.wrap-img img{
+    position: relative;
+    display: flex;
+    
+}
+.header-firstRow{
+    position:absolute;
+    top:5%;
+    left: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+
+}
+.logo-container img{
+    width: 100%;
+    height:100%;
+}
+.logo-container{
+    margin-left: 15%;
+    width: 10%;
+    height: 10%;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    margin-right: 11%;
+}
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+.nav-bar li{
+    padding: 5% 15% 2% 0;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.5rem;
+    font-family: 'montserrat';
+}
+.nav-bar ul li a:hover{
+    color:#fdbf00;
+}
+.lorem-block{
+    position:absolute;
+    bottom: 45%;
+    right: 25%;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: left;
+    align-items: left;
+}
+.title-here{
+        font-size: 3.5rem;      
+}
+.lorem{
+    display: inline-block;
+    padding: 5%;
+    padding-left: 0px;
+    font-size: 1.2rem;
+    text-align: justify;
+    color:white;
+
+}
+.btn{
+    border-style: none;
+    display: inline-block;
+    width: 30%;
+    height: 10%;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px grey;
+}
+.main-container{
+    width: 92%;
+    margin:auto;
+    box-shadow: 2px 2px 5px black;
+}
+.first-container-of-main{
+    margin: auto;
+    padding-bottom:7%;
+}
+.best-seller-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-best-seller{
+    padding: 3%;
+    font-size: 4rem;
+}
+.lorem-statistics,
+.lorem-best-seller{
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 60%;
+    padding-bottom: 5%;
+    color:black;
+}
+.menu-food{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-img-food-seller{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+.food-wrap img{
+    border-radius: 50%;
+}
+
+.lorem-of-foods{
+    display: flex;
+    flex-direction: row;
+    
+}
+.names-of-foods-seller{
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    
+}
+.food-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    padding-top:5%;
+}
+.lorem-of-foods{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 83%;
+} 
+.lorem-food{
+    width: 25%;
+    display:inline-flex;
+    text-align: center; 
+    padding: 10px 0px 10px 0px;
+}
+
+.brush-wrapper{
+    padding-top: 5%;
+    height: 50%;
+    background: url(images/background_noir2.png)no-repeat;
+    background-position: 50% 0%;
+    background-size:120%;
+}
+.brush-wrapper-reverse{
+    padding-top: 5%;
+    height: 50%;
+    background: url(images/brush-reverse.png)no-repeat;
+    background-position: 20% 70%;
+    background-size:120%;
+    
+}
+
+.oriental-taste{
+    display:flex;
+    width:100%;
+    margin:auto; 
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 2%;
+}
+.lorem-oriental-taste{
+    padding: 2% 0% 2% 0%;
+}
+.oriental-taste-wrap img{
+    width: 30%;
+    border-radius: 50%;
+}
+.lorem-oriental{
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+    color: white;
+}
+.oriental-taste{
+    width:80%; 
+    padding: 5%;
+    margin-top: 30px;
+}
+.oriental-taste-wrap img{
+    width: 70%;
+    height: 300px;
+    margin-top: 30px;
+}
+.title-oriental{
+    font-size: 3rem;
+}
+.oriental-taste-reverse{
+    display:flex;
+    width:80%;
+    margin:auto; 
+    justify-content: space-between;
+    text-align: center;  
+    padding: 2%;
+    margin-bottom: 150px;
+}
+
+.lorem-oriental-reverse{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+.lorem-oriental-taste-reverse{
+    padding: 25px 25px 25px 0px;
+    color: white;
+}
+.oriental-taste-wrap-reverse img{
+    width: 100%;
+    height: 300px;
+    border-radius: 50%;
+}
+.Row3-of-main-container{
+    background-color: #303030;
+}
+.statistics-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    background-color: #313131;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:#ffffff;
+    font-size: 1.5rem;
+    font-family: "montserrat";
+    border: 3px solid white;
+    box-shadow: 2px 2px 5px gray;
+    
+}
+.square-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    justify-items: auto;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 5%;
+}
+.number{
+    color:#fdbf00;
+    font-size: 1.5rem;
+}
+.number-illustration{
+    color: white;
+}
+.statistic{
+    font-size: 4rem;
+    color: #fdbf00;
+}
+.lorem-statistics{
+    font-size: 1rem;
+    color: white;
+}
+.Row5-of-main-container{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 600px;
+
+}
+.wrap-bg{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+}
+.wrap-bg img{
+    width: 100%;
+    height: 600px;
+}
+.bg-opacity{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    z-index: 1;
+    background: #fdbf00;
+    opacity: 0.80;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lorem-opacity,
+.lenora{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgb(29, 28, 28);
+}
+.lenora{
+    font-size: 3rem;
+    padding-top: 25px;
+}
+.Row6-of-main-container{
+    position: relative;
+    background: url(images/legume.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe{
+    display:  inline-block;
+    font-size: 70px;
+    padding: 30px;
+}
+.lorem-subscribe{
+    display: inline-block;
+    width: 60%;
+    font-size: 24px;
+    padding: 30px;
+    text-align: center;
+}
+.form-email{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+input{
+    width:50%;
+    height: 40px;
+    border-style: none;
+    box-shadow: 2px 2px 5px black;
+    padding-left: 5px;
+    font-family: "montserrat";
+}
+.btn{
+    border-style: none;
+    display: inline-block;
+    height: 40px;
+    box-shadow: 2px 2px 5px black;
+    background-color: #fdbf00;
+    font-size: 16px;
+}
+.footer-container{
+    position: relative;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 2% 3% 2%  3%;
+    gap:50px;
+    width: 75.5%;
+    
+    margin: auto;
+    box-shadow: 2px 2px 5px black;
+    color: white;
+}
+.title{
+    padding-bottom: 10px;
+    word-spacing: 2px;
+}
+.first-column{
+    margin-left: 30px;
+}
+.four-column,
+.three-column,
+.second-column{
+    margin-left: 100px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    margin-top: 5px;
+}
+.lorem-footer{
+    width: 100%;
+}
+.social-network-icon{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-around;
+    padding: 10px 10px 10px 0px;
+}
+.social-network-icon img{
+    width: 100%;
+    height: 20px;
+}
+@media screen and (max-width:600px){
+    header{
+        width: 600px;
+    }
+    .main-container{
+        width: 600px;
+        margin: auto;
+    }
+    .footer-container{
+        width: 600px;
+        margin: auto;
+    }
+    .wrap-img img{
+        width:100%
+    }
+    .header-firstRow{
+        width: 50%
+    }
+    .nav-bar{
+        width: 28%;
+        margin-top:-40%
+    }
+    .nav-bar li{
+        padding: 10px 0px 10px 30px;
+    }
+    .nav-bar ul li a{
+        font-size: 12px;
+    }
+    .logo-container{
+        width: 30%;
+        height: 30px; 
+        margin-top:-25%
+    }
+    .logo-container img{
+        width: 80%;
+        height: 40px;
+        margin-left: -10px;
+    }
+    .title-here{
+        font-size: 20px;      
+    }
+    .lorem{
+        font-size: 10px;
+        padding-bottom: 8px;
+        padding-top: 5px;
+        width: 200px;
+    }
+    .lorem-block{
+        bottom: 1700px;
+        width: 30%;
+    }
+    .btn{
+        width: 70px;
+        height: 20px;
+        font-size: 8px;
+    }
+    .title-best-seller{
+        padding: 15px;
+        font-size: 30px;
+    }
+    .lorem-statistics,
+    .lorem-best-seller{
+        font-size: 12px;
+        width: 60%;
+        padding-bottom: 5%;
+    }
+    .wrap-img-food-seller{
+        justify-content: space-around;
+        align-items: center;
+       
+    }
+    .food-wrap img{
+        border-radius: 50%;
+        width: 100px;
+        
+    }
+    .names-of-foods-seller{
+        width: 65%;
+        justify-content: space-between;
+    
+    }
+    .food-name{
+        font-size: 20px;
+        padding-top: 2%; 
+    }
+    .lorem-food{
+        display:inline-flex;
+        text-align: center; 
+        padding: 10px 30px 10px 0px;
+        font-size:10px;
+    }
+    .lorem-of-foods{
+        width: 70%;
+    } 
+    .oriental-taste{
+        width:80%; 
+        padding: 10px;
+        margin-top: 30px;
+    }
+    .oriental-taste-wrap img{
+        width: 150px;
+        height: 150px;
+        margin-top: 30px
+    }
+    .title-oriental{
+        font-size: 30px;
+    }
+    .square{
+        width: 90px;
+        height: 90px;
+        font-size: 12px;
+    }
+    .square-container{
+        width: 80%;
+    }
+    .number{
+        font-size: 12px;
+    }
+    .oriental-taste-reverse{
+        width:100%;
+        justify-content: space-between;
+    }
+    .oriental-taste-wrap-reverse img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .lorem-oriental-taste{
+        padding: 25px 25px 25px 0px;
+        color: white;
+        font-size: 2vw;
+    }
+    .lorem-oriental-taste-reverse{
+        font-size: 2vw;
+    }
+    .Row5-of-main-container{
+        margin-top: -25vw;
+    
+    }
+    .wrap-bg img{
+        height: 400px;
+    }
+    .bg-opacity{
+        height: 400px;
+    }
+    .lorem-opacity,
+    .lenora{
+        width: 50%;
+        font-size: 20px;
+        color: rgb(29, 28, 28);
+    }
+    .lenora{
+        font-size: 30px;
+        padding-top: 25px;
+    }  
+    .subscribe{
+        font-size: 50px;
+        padding: 20px;
+    }
+    .lorem-subscribe{
+        width: 80%;
+        font-size: 12px;
+        padding: 20px;
+    } 
+    .form-email{
+        width: 50%;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    input{
+        width:50%;
+        height: 25px;
+        box-shadow: 2px 2px 5px black;
+        padding-left: 5px;
+    }
+    .form-email .btn{
+        height: 25px;
+        box-shadow: 2px 2px 5px black;
+        background-color: #fdbf00;
+        font-size: 10px;
+    }
+    .Row6-of-main-container{
+        margin-top: -160px;
+    }
+    .footer-container{
+        grid-template-columns: 1fr 1fr;
+        padding: 2% 3% 2%  3%;
+        gap:50px;
+        width: 100%;
+        margin: auto;
+    }
+    .title{
+        font-size:12px
+    }
+    .first-column{
+        margin-left: 30px;
+    }
+    .four-column,
+    .second-column{
+        margin-left: 60px;
+    }
+    .three-column{
+        margin-left: 40px;
+    }
+    ul li{
+        font-size:10px;
+    }
+    .lorem-footer{
+        width: 80%;
+        font-size:10px; 
+    }
+    .social-network-icon{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        gap:5px;
+        justify-content: space-around;
+        padding: 10px 10px 10px 0px;
+    }
+    .social-network-icon img{
+        width: 100%;
+        height: 20px;
+    
+    }
+}
+@media screen and (max-width:466px){
+    header{
+        width: 466px;
+    }
+    .main-container{
+        width: 466px;
+        margin: auto;
+    }
+    .footer-container{
+        width: 466px;
+        margin: auto;
+    }
+    .wrap-img img{
+        width:100%
+    }
+    .header-firstRow{
+        width: 50%
+    }
+    .nav-bar{
+        margin-top:-70%;
+        margin-left: 5%;
+    }
+    .nav-bar li{
+        padding: 10px 0px 10px 8px;
+    }
+    .nav-bar ul li a{
+        font-size: 9px;
+        margin-left: 5px;
+    }
+    .logo-container{
+        width: 40%;
+        height: 20px; 
+        margin-top:-40%;
+    }
+    .logo-container img{
+        width: 80%;
+        height: 40px;
+        margin-left: -40px;
+    }
+    .lorem-block{
+        bottom:1725px;
+        right: 35%;
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+    }
+    .title-here{
+            font-size: 4vw;      
+    }
+    .lorem{
+        padding: 8px;
+        font-size: 8px;
+    }
+    .btn{
+        width: 60px;
+        height: 20px;
+        font-size: 7px;
+        margin-left: 10px;
+    }
+    .wrap-img-food-seller{
+        width: 90%;
+    }
+    .names-of-foods-seller{ 
+        width: 75%; 
+    }
+    .food-name{
+        font-size: 3.5vw;
+    }
+    .lorem-of-foods{
+        width: 80vw;
+    }
+    .oriental-taste{
+        width:80%; 
+        padding: 10px;
+        margin-top: 30px;
+    }
+    .oriental-taste-wrap img{
+        width: 150px;
+        height: 150px;
+    }
+    .title-oriental{
+        font-size: 25px;
+    }
+    .lorem-oriental{
+        width: 50%;
+        font-size: 10px;
+        padding: 5px;
+    }
+    .Row3-of-main-container{
+        background-color: #303030;
+        margin-top: -100px;
+    }
+    .statistics-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20vw;
+        margin-bottom: 5vw;
+    }
+    .statistic {
+        font-size: 30px;
+    }
+    .square-container{
+        margin-bottom: 3vw;
+    }
+    .square{
+        width: 80px;
+        height: 80px;
+        font-size: 10px;
+    }
+    .brush-wrapper-reverse{
+        margin-top: -50px;
+        padding-top: 30px;  
+    }
+    .lorem-oriental-taste{
+        padding: 25px 25px 25px 0px;
+        color: white;
+    }
+    .lorem-oriental-taste-reverse{
+        font-size: 12px;
+    }
+    input{
+        width:60%;
+        height: 25px;
+        box-shadow: 2px 2px 5px black;
+        padding-left: 5px;
+    }
+    .form-email .btn{
+        height: 25px;
+        box-shadow: 2px 2px 5px black;
+        background-color: #fdbf00;
+        font-size: 8px;
+        margin-left: -5px;
+    }
+    
+    
+}
